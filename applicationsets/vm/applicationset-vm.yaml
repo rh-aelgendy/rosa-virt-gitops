@@ -7,10 +7,10 @@ spec:
   - clusters: {}
   - list:
       elements:
-      - appName: dev-vm
+      - appName: dev-vm-Utrecht2025
         gitPath: dev
         namespace: dev-vm
-      - appName: prod-vm
+      - appName: prod-vm-Utrecht2025
         gitPath: prod
         namespace: prod-vm
   template:
@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/rh-mobb/rosa-virt-gitops.git
+        repoURL: https://github.com/rh-aelgendy/rosa-virt-gitops.git
         targetRevision: HEAD
         path: "applicationsets/vm/kustomize/{{gitPath}}"
       destination:

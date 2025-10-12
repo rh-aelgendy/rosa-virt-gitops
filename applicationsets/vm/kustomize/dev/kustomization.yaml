@@ -10,10 +10,10 @@ patches:
   - patch: |
       - op: replace
         path: /spec/running
-        value: true
+        value: false
       - op: replace
         path: /spec/template/spec/domain/memory/guest
-        value: 2Gi
+        value: 3Gi
       - op: replace
         path: /spec/template/spec/volumes/1/cloudInitNoCloud/userData
         value: |-

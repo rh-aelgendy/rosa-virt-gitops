@@ -7,10 +7,10 @@ spec:
   - clusters: {}
   - list:
       elements:
-      - appName: dev-vm-Utrecht2025
+      - appName: dev-vm-utrecht2025
         gitPath: dev
         namespace: dev-vm
-      - appName: prod-vm-Utrecht2025
+      - appName: prod-vm-utrecht2025
         gitPath: prod
         namespace: prod-vm
   template:

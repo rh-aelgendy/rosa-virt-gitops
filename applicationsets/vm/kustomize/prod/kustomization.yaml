@@ -9,9 +9,6 @@ namePrefix: prod-
 patches:
   - patch: |
       - op: replace
-        path: /spec/running
-        value: false
-      - op: replace
         path: /spec/template/spec/domain/memory/guest
         value: 4Gi
       - op: replace

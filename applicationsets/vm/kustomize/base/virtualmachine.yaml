@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   name: vm
 spec:
-  running: true
+#  running: true
   runStrategy: RerunOnFailure
   template:
     metadata:

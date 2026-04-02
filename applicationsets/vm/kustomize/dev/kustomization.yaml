@@ -12,6 +12,9 @@ patches:
         path: /spec/running
         value: true
       - op: replace
+        path: /spec/template/spec/domain/cpu/cores
+        value: 16  
+      - op: replace
         path: /spec/template/spec/domain/memory/guest
         value: 4Gi
       - op: replace
